@@ -4,6 +4,16 @@ import { FONT_SIZES } from "../config/fonts"
 import { grey } from "@mui/material/colors"
 
 const themeObj = createTheme({
+    breakpoints: {
+        values: {
+            xs: 0,
+            sm: 300,
+            md: 660,
+            lg: 1620,
+            xl: 1920,
+        },
+    },
+
     palette: {
         mode: "light"
     },
